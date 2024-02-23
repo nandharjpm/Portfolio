@@ -1,152 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>NK Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <script src="https://kit.fontawesome.com/6db94a55fb.js" crossorigin="anonymous"></script>
-  <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f1f1f1;
-        margin: 0;
-    }
-
-    header {
-        text-align: center;
-        padding: 20px;
-        background-color: #333;
-        color: #fff;
-    }
-
-    h1 {
-        margin: 0;
-    }
-
-    main {
-        max-width: 1400px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: white;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .social-icons {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .social-icons img {
-        height: 160px;
-        width: 160px;
-        border-radius: 120px;
-    }
-
-    .social-icons a {
-        color: #333;
-        font-size: 24px;
-        margin: 0 10px;
-        transition: color 0.3s;
-    }
-
-    .social-icons a:hover {
-        color: #000;
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 20px;
-        margin-top: 30px;
-    }
-
-    .project {
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .project h2 {
-        margin-bottom: 10px;
-    }
-
-    .project p {
-        margin: 0;
-        font-size: 20px;
-    }
-
-    .project img {
-        max-width: 100%;
-        max-height: 200px;
-        object-fit: contain;
-        margin-bottom: 10px;
-    }
-
-    .footer {
-        text-align: center;
-        padding: 10px;
-        background-color: #333;
-        color: #fff;
-    }
-
-    /* Mobile Styles */
-    @media screen and (max-width: 768px) {
-        .social-icons img {
-            height: 120px;
-            width: 120px;
-            border-radius: 90px;
-        }
-
-        .grid {
-            grid-template-columns: 1fr;
-        }
-
-        .project img {
-            max-height: 150px;
-        }
-
-        .about,
-        .project1 {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-        }
-
-        .about h2,
-        .project1 .achievements h2 {
-            padding-left: 10px;
-            padding-top: 10px;
-        }
-
-        .about p,
-        .project1 .achievements p {
-            font-size: 20px;
-            padding-left: 10px;
-            margin-left: 10px;
-            padding-bottom: 10px;
-        }
-    }
-</style>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
+
 <body>
   <header>
     <h1>Nandhakumar S</h1>
     <div class="social-icons">
       <img src="nk3.jpg">
       <br><br>
-      <a href="https://www.linkedin.com/in/00snk" target="_blank" style="color: rgb(53, 130, 247);"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/00snk" target="_blank" style="color: rgb(53, 130, 247);"><i
+          class="fab fa-linkedin"></i></a>
       <a href="https://github.com/nandharjpm" target="_blank" style="color: white;"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/nandhakumar416/" target="_blank" style="color: rgb(255, 55, 48);"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/nandhakumar416/" target="_blank" style="color: rgb(255, 55, 48);"><i
+          class="fab fa-instagram"></i></a>
       <a href="mailto:nandharjpm@gmail.com" style="color: red;"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div>
+      <a href="portfolio/Nandhakumar(Resume).pdf" download="Nandhakumar(Resume).pdf"><button class="btn-hover color-8">Download My Resume</button></a>
     </div>
   </header>
 
   <main>
     <h2 style="padding: 5px;">About Me</h2>
-    <div class="about" style="background-color: #333; color: white; border-radius: 10px;">
+    <div class="about" style="background-color: #333; color: white; border-radius: 10px; box-shadow: 0 4px 15px 0 rgba(49, 121, 209, 0.75);">
       <p style="font-size: 20px; padding-left: 10px; padding-top: 10px;">
         I am a Front-end web developer and Ethical Hacker with expertise in HTML, CSS, PHP, and SQL.<br>
         I have experience in Vulnerability Assessment Penetration Testing and strong skills in networking.<br>
@@ -163,40 +48,40 @@
 
 
     <h2 style="padding: 10px;">Skills</h2>
-    <div class="skill" style="background-color: #333; color: white; border-radius: 10px;">
+    <div class="skill" style="background-color: #333; color: white; border-radius: 10px; box-shadow: 0 4px 15px 0 rgba(49, 121, 209, 0.75);">
 
-        <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Procedural Language :</h2>
-        <ol style="font-size: 20px; padding-bottom: 0px;">
-            <li>C</li>
-        </ol>
+      <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Procedural Language :</h2>
+      <ol style="font-size: 20px; padding-bottom: 0px;">
+        <li>C</li>
+      </ol>
 
-        <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Object Oriented Programming Languages :</h2>
-        <ol style="font-size: 20px; padding-bottom: 0px;">
-            <li>C++</li>
-            <li>Python</li>
-            <li>PHP</li>
-        </ol>
+      <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Object Oriented Programming Languages :</h2>
+      <ol style="font-size: 20px; padding-bottom: 0px;">
+        <li>C++</li>
+        <li>Python</li>
+        <li>PHP</li>
+      </ol>
 
-        <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Web Design :</h2>
-        <ol style="font-size: 20px; padding-bottom: 0px;">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-        </ol>
+      <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Web Design :</h2>
+      <ol style="font-size: 20px; padding-bottom: 0px;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+      </ol>
 
-        <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Penetration Testing :</h2>
-        <ol style="font-size: 20px; padding-bottom: 10px;">
-            <li>Information Gathering</li>
-            <li>Network Scanning</li>
-            <li>Sub Domain Enumeration</li>
-            <li>Google Hacking Database</li>
-        </ol>
-      </div>
+      <h2 style="padding: 10px; padding-bottom: 0px; font-size: 20px">Penetration Testing :</h2>
+      <ol style="font-size: 20px; padding-bottom: 10px;">
+        <li>Information Gathering</li>
+        <li>Network Scanning</li>
+        <li>Sub Domain Enumeration</li>
+        <li>Google Hacking Database</li>
+      </ol>
+    </div>
 
 
 
     <h2>Projects</h2>
-    <div class="grid">
+    <div class="grid" style="box-shadow: 0 4px 15px 0 rgba(49, 121, 209, 0.75);">
       <div class="project">
         <h2>Project 1</h2>
         <p>Machinery Dealers:</p>
@@ -209,7 +94,7 @@
         </p>
       </div>
 
-      <div class="project">
+      <div class="project" style="box-shadow: 0 4px 15px 0 rgba(49, 121, 209, 0.75);">
         <h2>Project 2</h2>
         <p>Maintenance Recorder:</p>
         <img src="mill.jpg">
@@ -220,7 +105,7 @@
         </p>
       </div>
 
-      <div class="project">
+      <div class="project" style="box-shadow: 0 4px 15px 0 rgba(49, 121, 209, 0.75);">
         <h2>Project 3</h2>
         <p>Encrypted Data:</p>
         <img src="pysec.png">
@@ -231,7 +116,7 @@
         </p>
       </div>
 
-      <div class="project">
+      <div class="project" style="box-shadow: 0 4px 15px 0 rgba(49, 121, 209, 0.75);">
         <h2>Project 4</h2>
         <p>Port Range Scanner:</p>
         <img src="port.jpg">
@@ -245,15 +130,17 @@
     </div>
 
     <h2 style="padding: 10px;">Achievements</h2>
-    <div class="project1" style="background-color: #333; color: white; border-radius: 10px;">
+    <div class="project1" style="background-color: #333; color: white; border-radius: 10px; box-shadow: 0 4px 15px 0 rgba(49, 121, 209, 0.75);">
       <div class="achievements">
-        <p style="font-size: 20px; padding-left: 10px; padding-top: 10px;">Found two bugs on <a href="tnstc.in" style="color: white;">tnstc.in</a> website.<br>
-        1.Remote Code Execution<br>
-        2.Reverse proxy login bypass</p>
+        <p style="font-size: 20px; padding-left: 10px; padding-top: 10px;">Found two bugs on <a href="tnstc.in"
+            style="color: white;">tnstc.in</a> website.<br>
+          1.Remote Code Execution<br>
+          2.Reverse proxy login bypass</p>
 
-        <p style="font-size: 20px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">Found two bugs on <a href="https://snscourseware.org/snsrcas/results.php?" style="color: white;">snscourseware</a> website.<br>
-            1.Time-based Blind SQL Injection<br>
-            2.Union-based SQL Injection<br>
+        <p style="font-size: 20px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">Found two bugs on <a
+            href="https://snscourseware.org/snsrcas/results.php?" style="color: white;">snscourseware</a> website.<br>
+          1.Time-based Blind SQL Injection<br>
+          2.Union-based SQL Injection<br>
       </div>
     </div>
   </main>
@@ -261,9 +148,11 @@
   <footer class="footer">
     &copy; 2023 Nandhakumar S | All rights reserved.<br>
     <p>
-      🎦 <a href="https://www.youtube.com/@CEITNandhakumarS/playlists" style="color: red; font-size: 20px;">NK youtube</a><br><br>
+      🎦 <a href="https://www.youtube.com/@CEITNandhakumarS/playlists" style="color: red; font-size: 20px;">NK
+        youtube</a><br><br>
       🅱️ <a href="https://snktechdeveloper.blogspot.com/" style="color: green; font-size: 20px;">Blog</a>
     </p>
   </footer>
 </body>
+
 </html>
